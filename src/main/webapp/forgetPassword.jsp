@@ -1,10 +1,3 @@
-<%--
-  Created by IntelliJ IDEA.
-  User: Gihan Viduranga
-  Date: 1/13/2025
-  Time: 5:27 PM
-  To change this template use File | Settings | File Templates.
---%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
@@ -12,7 +5,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
     <style>
         body {
-            background: linear-gradient(135deg, #003135, #024950);
+            background: linear-gradient(135deg, #7b1fa2, #9c27b0);
             min-height: 100vh;
             display: flex;
             align-items: center;
@@ -27,22 +20,40 @@
             max-width: 500px;
             width: 100%;
         }
+        h4 {
+            color: #7b1fa2;
+            font-weight: bold;
+        }
         .form-control {
             border-radius: 8px;
+            border: 1px solid #9c27b0;
+        }
+        .form-control:focus {
+            border-color: #7b1fa2;
+            box-shadow: 0 0 0 0.2rem rgba(123, 31, 162, 0.25);
         }
         .btn-primary {
             border-radius: 8px;
             padding: 0.8rem;
             font-size: 1rem;
             font-weight: bold;
-            background: linear-gradient(135deg, #003135, #024950);
+            background: linear-gradient(135deg, #7b1fa2, #9c27b0);
             border: none;
         }
         .btn-primary:hover {
-            background: linear-gradient(135deg, #024950, #003135);
+            background: linear-gradient(135deg, #9c27b0, #7b1fa2);
         }
         .text-muted {
             font-size: 0.9rem;
+            color: #6a1b9a;
+        }
+        .text-muted a {
+            color: #7b1fa2;
+            font-weight: bold;
+        }
+        .text-muted a:hover {
+            color: #9c27b0;
+            text-decoration: underline;
         }
     </style>
 </head>

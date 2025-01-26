@@ -179,36 +179,7 @@
     });
 
 
-    /*const categoryForm = document.getElementById('categoryForm');
 
-    categoryForm.addEventListener('submit', function (event) {
-        event.preventDefault(); // Prevent the default form submission
-
-        const name = document.getElementById('name').value;
-        const description = document.getElementById('description').value;
-        const image = document.getElementById('image').value;
-
-        // Check if passwords match
-        if (name == null && description == null && image == null) {
-            Swal.fire({
-                icon: 'error',
-                title: 'Oops...',
-                text: 'Fill the Fields',
-            });
-            return;
-        }
-
-        // If validation passes, submit the form
-        Swal.fire({
-            icon: 'success',
-            title: 'Category Added Successful!',
-            text: 'Submitting your data...',
-            showConfirmButton: false,
-            timer: 1500
-        }).then(() => {
-            categoryForm.submit(); // Submit the form
-        });
-    });*/
 </script>
 </body>
 </html>
