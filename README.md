@@ -12,4 +12,4 @@ Ecommerce application
 <img width="959" alt="Image" src="https://github.com/user-attachments/assets/c9475310-0f5f-4786-b473-49098a0abd17" />
 
 <img width="953" alt="Image" src="https://github.com/user-attachments/assets/f4729bce-cf21-4f25-b73d-4cbe1f56b0c4" />
-https://youtu.be/3jpYk03on2Y?si=ISg2ksviH78RBNlO
+<my utube vdo link> https://youtu.be/3jpYk03on2Y?si=ISg2ksviH78RBNlO
